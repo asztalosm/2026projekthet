@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://c28kc2r00ffdf"]
+
+[ext_resource type="Texture2D" uid="uid://toi7dbd3ri1h" path="res://Sprites/Exports/GrassTileBase.png" id="1_e5xx2"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rgor0"]
+texture = ExtResource("1_e5xx2")
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="TileSet" id="TileSet_58usi"]
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_rgor0")
+
+[node name="MapTileset" type="TileMapLayer" unique_id=1656893406]
+tile_set = SubResource("TileSet_58usi")
