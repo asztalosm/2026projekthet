@@ -1,0 +1,35 @@
+Reinforcement Learning (RL): A "Próba-szerencse" módszer
+Képzeld el, hogy egy robotot beültetsz a Mario elé. Nem mondod meg neki, mi a gomba vagy a szakadék, csak annyit: "Minél több pontot szerezz!"
+
+Hogyan tanul? Ha jobbra megy és pontot kap, felírja magának, hogy ez jó. Ha beleesik a lyukba, kap egy virtuális pofont (büntetést), és legközelebb kerüli.
+
+A trükk: Ez az AI nem adatokat magol, hanem tapasztal. Ezért tudnak a robotkutyák (pl. Boston Dynamics) olyan durván egyensúlyozni a jégen: nem szoftvert írtak rá, hanem RL-lel "rájött" a gép, hogyan ne zakózzon el.
+
+ Képgenerálás: A "Zajból valóság"
+Sokan azt hiszik, az AI csak összevág darabokat meglévő képekből, mint egy kollázst, de ez tévedés.
+
+A folyamat: Úgy indul, mint egy hangyás tévéképernyő. Az AI-t arra tanították ki, hogy ebben a zajban lásson bele dolgokat.
+
+A végeredmény: Ha azt mondod neki, "űrhajós macska", elkezdi a zajt úgy alakítani, hogy a végén egy tűéles kép legyen belőle. Olyan, mintha a felhőkbe bámulnál, és addig koncentrálnál, amíg a felhő tényleg át nem alakul sárkánnyá.
+
+ Videógenerálás: A "Fizika szimulátor"
+Ez most a legérdekesebb téma (pl. OpenAI Sora vagy a Google Veo). A gond az, hogy egy videónál nem elég, ha szép a kép, a mozgásnak is stimmelnie kell.
+
+A nehézség: Az AI nem tudja, mi az a gravitáció. Ő csak videók millióiból "sejti", hogy ha egy pohár kiesik a kézből, az lefelé megy és összetörik.
+
+A hiba: Ezért látsz néha olyat, hogy a videón az embernek 6 ujja van, vagy a sétáló kutya hirtelen átlebeg egy autón. Az AI még csak "másolja" a látványt, de a fizikai szabályokat még nem vágja teljesen.
+
+ LLM-ek (Nagy Nyelvi Modellek): Miért "buták" néha?
+A ChatGPT és társai nem gondolkodnak, hanem statisztikáznak. Azt számolják ki, mi a legvalószínűbb következő szó.
+
+A legnagyobb bukkanók:
+Nincs valós memória: Olyanok, mint a srác a Mementó filmből. Minden új chatnél tiszta a lap. Csak arra emlékeznek, amit az aktuális beszélgetésben (az ún. context window-ban) leírtál. Ha az betelik, elfelejtik a beszélgetés elejét.
+
+Hallucináció: Mivel csak szavakat pakolnak egymás után, néha totál magabiztosan hazudnak. Nem tudják, mi az "igazság", csak azt, mi hangzik jól.
+
+ A megoldás: Agentic LLMs (Az "Ügynökök")
+Ez a következő szint. Itt az AI már nem csak dumál, hanem cselekszik.
+
+Hogyan működnek? Nem egyből rávágják a választ. Inkább így gondolkodnak: "Várj, ehhez meg kell néznem a Google-t, le kell futtatnom egy Python kódot, és utána leellenőrizni, hogy amit írtam, az hülyeség-e."
+
+Önállóság: Képesek alfeladatokra bontani egy nagy kérést. Ha azt mondod neki: "Szervezz nekem egy utazást", az Agentic AI nem csak felsorol városokat, hanem megnézi a repjegyet, a szállást, és összeveti a te naptáraddal.

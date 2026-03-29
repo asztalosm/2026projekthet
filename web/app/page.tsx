@@ -1,5 +1,5 @@
 //CLIENT ELEMENTS
-import Title from "./clientui/title";
+import Title from "./clientui/LandingPage";
 
 export const metadata = {
   title: "Mesterséges Intelligencia Projekthét"
